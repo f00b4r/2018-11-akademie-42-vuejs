@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue #5</title>
+</head>
+<body>
+
+<div id="app">
+    Total clicks: {{clicks}}
+    <button @click="onBtnClick">CLICK ME</button>
+</div>
+
+<script src="https://unpkg.com/vue@2.5.16/dist/vue.js"></script>
+<script src="https://unpkg.com/vuex@3.0.1/dist/vuex.js"></script>
+<script type="text/javascript">
+    const store = new Vuex.Store({
+        state: {
+            clicks: 0
+        },
+        mutations: {
+            increaseClicks(state) {
+                state.clicks++;
+            }
+        }
+    });
+
+    const app = new Vue({
+        el: '#app',
+        store: store,
+        computed: {
+            clicks() {
+                return this.$store.state.clicks;
+            }
+        },
+        methods: {
+            onBtnClick() {
+                this.$store.commit('increaseClicks');
+            }
+        }
+    })
+</script>
+</body>
+</html>

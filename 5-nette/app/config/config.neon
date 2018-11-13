@@ -1,0 +1,16 @@
+application:
+	errorPresenter: Error
+	mapping:
+		*: App\*Module\Presenters\*Presenter
+	scanDirs: false
+
+session:
+	expiration: 14 days
+
+services:
+	router: App\Model\RouterFactory::createRouter
+
+	latte.latteFactory:
+		setup:
+			# Macros
+			- "?->onCompile[]=function($engine){ App\\Model\\WebpackMacro::register($engine->getCompiler(), ?); }"(@self, %tempDir%/manifest.json)

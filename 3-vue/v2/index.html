@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue #2</title>
+</head>
+<body>
+
+<div id="app">
+    <h1 v-text="headline"></h1>
+
+    <div>{{text}}</div>
+    <div v-html="text"></div>
+
+    <hr>
+
+    <div v-bind:id="elementId">my element #1</div>
+    <div :id="elementId+'2'">my element #2</div>
+
+    <hr>
+
+    <div v-if="active">
+        I am alive!
+    </div>
+    <div v-else>
+        I am NOT alive!
+    </div>
+
+    <button v-show="!active" v-on:click="active=true">Active</button>
+    <button v-show="active" @click="active=false">Inactive</button>
+
+</div>
+
+<script src="https://unpkg.com/vue@2.5.16/dist/vue.js"></script>
+<script type="text/javascript">
+    const app = new Vue({
+        el: '#app',
+        data: {
+            headline: 'I am groot',
+            text: '<strong>I am groot</strong>',
+            elementId: 'myel',
+            active: true,
+        }
+    })
+</script>
+</body>
+</html>

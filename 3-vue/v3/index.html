@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue #3</title>
+</head>
+<body>
+
+<div id="app">
+    <ul>
+        <li v-for="item in items">
+            <div :style="{color: item.power > 0 ? 'black' : 'red'}">
+                {{ item.name }}
+            </div>
+
+            <input type="number" v-model="item.power">
+            <button @click="++item.power">+</button>
+            <button @click="--item.power">-</button>
+        </li>
+    </ul>
+
+</div>
+
+<script src="https://unpkg.com/vue@2.5.16/dist/vue.js"></script>
+<script type="text/javascript">
+    const app = new Vue({
+        el: '#app',
+        data: {
+            items: [
+                {name: 'Felix', power: 10},
+                {name: 'Chemix', power: 500},
+                {name: 'Chuck Norris', power: 1},
+            ]
+        }
+    })
+</script>
+</body>
+</html>

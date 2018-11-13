@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue #4</title>
+</head>
+<body>
+
+<div id="app">
+    <item-list :items="items"/>
+</div>
+
+<script src="https://unpkg.com/vue@2.5.16/dist/vue.js"></script>
+<script type="text/javascript">
+    Vue.component('item-detail', {
+        props: [
+            'item'
+        ],
+        template: `
+            <div :style="{color: item.power > 0 ? 'black' : 'red'}">
+                {{ item.name }}
+
+                <input type="number" v-model="item.power">
+                <button @click="++item.power">+</button>
+                <button @click="--item.power">-</button>
+            </div>
+        `
+    });
+
+    const app = new Vue({
+        el: '#app',
+        components: {
+            'item-list': {
+                props: [
+                    'items'
+                ],
+                template: `
+                    <ul>
+                        <li v-for="item in items">
+                            <item-detail :item="item"/>
+                        </li>
+                    </ul>
+                `
+            },
+        },
+        data: () => ({
+            items: [
+                {name: 'Felix', power: 10},
+                {name: 'Chemix', power: 500},
+                {name: 'Chuck Norris', power: 1},
+            ]
+        })
+    })
+</script>
+</body>
+</html>
