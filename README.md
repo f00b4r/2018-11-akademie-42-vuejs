@@ -25,3 +25,7 @@ Start project fast and cool!
 ### [[5] Nette](./5-nette)
 
 Example nette application with preconfigured Webpack and Vue.js components.
+
+## Workshop
+
+- 2018-11-15 - Hradec Kralove - [[branch](https://github.com/trainit/2018-11-akademie-42-vuejs/tree/feature/2018-11-15-hk)]
