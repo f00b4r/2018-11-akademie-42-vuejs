@@ -158,8 +158,6 @@ if (process.env.NODE_ENV === 'development') {
         },
     };
 
-    console.log(development);
-
     module.exports = merge(module.exports, development);
 }
 
