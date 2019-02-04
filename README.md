@@ -28,4 +28,13 @@ Example nette application with preconfigured Webpack and Vue.js components.
 
 ## Workshop
 
+- 2019-02-05 - Praha - [[branch](https://github.com/trainit/2018-11-akademie-42-vuejs/tree/feature/2019-02-05-praha)]
 - 2018-11-15 - Hradec Kralove - [[branch](https://github.com/trainit/2018-11-akademie-42-vuejs/tree/feature/2018-11-15-hk)]
+
+## Resources
+
+- https://www.keycdn.com/support/defer-parsing-of-javascript
+- https://www.keycdn.com/support/prefer-async-resources
+- https://www.keycdn.com/blog/javascript-performance
+- https://www.keycdn.com/support/reduce-dns-lookups
+- https://www.keycdn.com/blog/resource-hints
