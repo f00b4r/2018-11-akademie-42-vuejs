@@ -1,3 +1,5 @@
-function hello() {
-    alert('world!')
+function hello(who) {
+    alert(`Hello ${who}!`);
 }
+
+hello('world!');
