@@ -10,6 +10,8 @@ session:
 services:
 	router: App\Model\RouterFactory::createRouter
 
+	- App\Model\SpotlightFacade
+
 	latte.latteFactory:
 		setup:
 			# Macros

@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types = 1);
 
 namespace App\Model;
 
@@ -12,7 +12,7 @@ final class RouterFactory
 	public static function createRouter(): IRouter
 	{
 		$router = new RouteList;
-		$router[] = new Route('<presenter>/<action>', 'Front:default');
+		$router[] = new Route('<presenter>/<action>[/<id>]', 'Front:default');
 		return $router;
 	}
 }
