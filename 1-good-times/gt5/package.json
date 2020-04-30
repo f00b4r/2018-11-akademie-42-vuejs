@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "bootstrap": "^4.2.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "nette.ajax.js": "^2.3.0",
     "nette-forms": "^2.4.9"
   },
