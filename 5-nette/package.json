@@ -3,7 +3,7 @@
     "axios": "^0.18.0",
     "bootstrap": "^4.2.1",
     "jquery": "^3.5.0",
-    "naja": "^1.5.1",
+    "naja": "^1.8.3",
     "nette-forms": "^2.4.9",
     "nette.ajax.js": "^2.3.0",
     "vue": "^2.6.11",
