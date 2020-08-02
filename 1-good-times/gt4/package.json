@@ -7,7 +7,7 @@
     "gulp-order": "^1.2.0",
     "gulp-uglify": "^3.0.1",
     "gulp-watch": "^5.0.1",
-    "lodash": ">=4.17.5",
+    "lodash": ">=4.17.19",
     "minimatch": ">=3.0.2"
   },
   "scripts": {
