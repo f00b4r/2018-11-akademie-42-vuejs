@@ -18,7 +18,7 @@
     "babel-loader": "^8.0.5",
     "cache-loader": "^4.1.0",
     "cross-env": "^7.0.2",
-    "css-loader": "^2.1.0",
+    "css-loader": "^4.2.0",
     "file-loader": "^6.0.0",
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.14.1",
