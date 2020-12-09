@@ -35,7 +35,7 @@
     "webpack-bundle-analyzer": "^4.2.0",
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0",
-    "webpack-merge": "^5.4.0"
+    "webpack-merge": "^5.4.1"
   },
   "main": "assets/src/main.js",
   "scripts": {
