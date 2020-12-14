@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0134c4a23dd4ea6bb5af65cffbb1b894",
+    "content-hash": "0935c00ccd82afba3940e7c27fd3a5ef",
     "packages": [
         {
             "name": "contributte/application",
@@ -1397,7 +1397,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "? Nette Utils: lightweight utilities for string & array manipulation, image handling, safe JSON encoding/decoding, validation, slug or strong password generating etc.",
+            "description": "🛠 Nette Utils: lightweight utilities for string & array manipulation, image handling, safe JSON encoding/decoding, validation, slug or strong password generating etc.",
             "homepage": "https://nette.org",
             "keywords": [
                 "array",
@@ -1473,7 +1473,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "? Tracy: the addictive tool to ease debugging PHP code for cool developers. Friendly design, logging, profiler, advanced features like debugging AJAX calls or CLI support. You will love it.",
+            "description": "😎 Tracy: the addictive tool to ease debugging PHP code for cool developers. Friendly design, logging, profiler, advanced features like debugging AJAX calls or CLI support. You will love it.",
             "homepage": "https://tracy.nette.org",
             "keywords": [
                 "Xdebug",
@@ -1488,55 +1488,33 @@
     "packages-dev": [
         {
             "name": "contributte/dev",
-            "version": "v0.1",
+            "version": "v0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contributte/dev.git",
-                "reference": "ec46ddfce08cd45960ae40efc5872a18e968d6a2"
+                "reference": "2f583ab44c082d4fd09db57db3906cb0c48706e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contributte/dev/zipball/ec46ddfce08cd45960ae40efc5872a18e968d6a2",
-                "reference": "ec46ddfce08cd45960ae40efc5872a18e968d6a2",
+                "url": "https://api.github.com/repos/contributte/dev/zipball/2f583ab44c082d4fd09db57db3906cb0c48706e4",
+                "reference": "2f583ab44c082d4fd09db57db3906cb0c48706e4",
                 "shasum": ""
             },
             "require": {
-                "php": ">= 5.6"
+                "php": ">=7.2"
             },
             "require-dev": {
-                "ninjify/nunjuck": "^0.1.4",
-                "ninjify/qa": "^0.3.3"
+                "ninjify/nunjuck": "^0.4",
+                "ninjify/qa": "^0.12"
             },
             "type": "library",
             "extra": {
-                "ninjify": {
-                    "qa": {
-                        "codesniffer": {
-                            "ruleset": "nette",
-                            "folders": [
-                                "src",
-                                "tests"
-                            ]
-                        },
-                        "codefixer": {
-                            "ruleset": "nette",
-                            "folders": [
-                                "src",
-                                "tests"
-                            ]
-                        },
-                        "linter": {
-                            "folders": [
-                                "src",
-                                "tests"
-                            ]
-                        }
-                    }
+                "branch-alias": {
+                    "dev-master": "0.4.x-dev"
                 }
             },
             "autoload": {
                 "files": [
-                    "src/functions.php",
                     "src/shortcuts.php"
                 ]
             },
@@ -1547,7 +1525,7 @@
             "authors": [
                 {
                     "name": "Milan Felix Sulc",
-                    "homepage": "https://jfx.cz"
+                    "homepage": "https://f3l1x.io"
                 }
             ],
             "description": "Tools for development",
@@ -1557,7 +1535,7 @@
                 "nette",
                 "shortcuts"
             ],
-            "time": "2017-03-12T18:43:26+00:00"
+            "time": "2020-12-13T18:46:03+00:00"
         }
     ],
     "aliases": [],
