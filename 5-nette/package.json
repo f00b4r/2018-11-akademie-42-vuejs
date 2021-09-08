@@ -34,7 +34,7 @@
     "webpack-assets-manifest": "^4.0.6",
     "webpack-bundle-analyzer": "^4.4.2",
     "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.1.0",
+    "webpack-dev-server": "^4.1.1",
     "webpack-merge": "^5.8.0"
   },
   "main": "assets/src/main.js",
