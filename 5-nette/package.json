@@ -21,7 +21,7 @@
     "css-loader": "^5.2.7",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^1.6.2",
-    "node-sass": "^7.0.1",
+    "node-sass": "^7.0.2",
     "optimize-css-assets-webpack-plugin": "^6.0.1",
     "raw-loader": "^4.0.2",
     "sass-loader": "^10.1.1",
