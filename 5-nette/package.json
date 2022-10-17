@@ -7,7 +7,7 @@
     "nette-forms": "^3.3.1",
     "nette.ajax.js": "^2.3.0",
     "vue": "^3.2.40",
-    "vuex": "^4.0.2"
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
