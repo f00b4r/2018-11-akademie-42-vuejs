@@ -2,7 +2,7 @@
   "dependencies": {
     "axios": "^1.2.1",
     "bootstrap": "^4.6.0",
-    "jquery": "^3.6.1",
+    "jquery": "^3.6.2",
     "naja": "^2.5.0",
     "nette-forms": "^3.3.1",
     "nette.ajax.js": "^2.3.0",
