@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "axios": "^1.2.4",
+    "axios": "^1.2.5",
     "bootstrap": "^4.6.0",
     "jquery": "^3.6.3",
     "naja": "^2.5.0",
